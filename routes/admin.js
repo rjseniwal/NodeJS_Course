@@ -4,13 +4,14 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/add-product", (req, res, next) => {
-	console.log("In another middleware");
-	res.sendFile(path.join(__dirname, "..", "views", "add-product.html"));
+	res.render("add-product", { pageTitle: "Add Product", path: "/add-product" });
 });
 
+const product = [];
 router.post("/add-product", (req, res, next) => {
-	console.log(req.body);
+	product.push({ title: req.body.title });
 	res.redirect("/");
 });
 
-module.exports = router;
+exports.routes = router;
+exports.product = product;
