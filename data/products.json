@@ -1,1 +1,14 @@
-[{"title":"abc"},{"title":"book"},{"title":"abc"},{"title":"hello"},{"title":""},{"title":"heya"}]
+[
+	{
+		"title": "First book",
+		"imageUrl": "https://images.pexels.com/photos/3007370/pexels-photo-3007370.jpeg?cs=srgb&dl=pexels-sofia-alejandra-3007370.jpg&fm=jpg",
+		"description": "This is an amazing book which can open your eyes wide.",
+		"price": "500"
+	},
+	{
+		"title": "Second book",
+		"imageUrl": "https://images.pexels.com/photos/3358707/pexels-photo-3358707.png?cs=srgb&dl=pexels-rikka-ameboshi-3358707.jpg&fm=jpg",
+		"description": "This book looks too beautiful!",
+		"price": "16.65"
+	}
+]
